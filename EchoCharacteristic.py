@@ -38,6 +38,6 @@ class EchoCharacteristic(Characteristic):
         self._updateValueCallback = updateValueCallback
 
     def onUnsubscribe(self):
-        print('EchoCharacteristic - onUnsubscribe');
+        print('EchoCharacteristic - onUnsubscribe')
         
         self._updateValueCallback = None
